@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Азбука массажа</title>
+
+    <style>
+.main {
+  display: table;
+  table-layout:fixed;
+  width: 100%;
+  border-spacing: 20px;  /* расстояние между ячейками */
+  background: #ccc;
+}
+.article, .aside {
+  display: table-cell;
+  background: rgb(89, 89, 89);
+}
+.aside {
+  width: 50%;  /* может быть и в px */
+}
+</style>
+<script src="js/jquery-1.11.1.min.js"></script>
+ <script>$(document).ready(function() {
+  setTimeout(function() {
+      var mainDivs = $(".media-body"); //Получаем все элементы с классом column
+      var maxHeight = 0;
+      for (var i = 0; i < mainDivs.length; ++i) {
+        if (maxHeight < $(mainDivs[i]).height()) { //Находим максимальную высоту
+          maxHeight = $(mainDivs[i]).height(); 
+        }
+      }
+      for (var i = 0; i < mainDivs.length; ++i) {
+        $(mainDivs[i]).height(maxHeight); //Устанавливаем всем элементам максимальную высоту
+      }
+    }, 1000);
+});</script>
+  </head>
+  <body>  
+<div class="main">
+<div class="article"><div class="media-body catalog_page2">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <h5><a href="/massazhnye-kresla/yamaguchi/yamaguchi-axiom-ya-6000.html">Массажное кресло Yamaguchi Axiom YA-6000</a></h5>
+                        <div class="media_img">
+                         
+                           <img class="jshop_img" src="http://massage.no-ip.info/components/com_jshopping/files/img_products/thumb_________________________________Yamaguchi_Axiom_YA-6000.jpg" alt="Массажное кресло Yamaguchi Axiom YA-6000" title="Массажное кресло Yamaguchi Axiom YA-6000">
+
+                            
+                        </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                      
+                       <p>Цена: <br>
+                                                    <span class="new_price"><span class="color2">340 000 <i class="fa fa-rub"></i></span> <span class="color3">РУБ</span></span>
+                           
+                       </p>
+                        
+                       <ul>
+                           <li>Авто. программы: 5 шт.</li>
+                           <li>Кол. роликов: 4 шт.</li>
+                           <li>Синх. с музыкой: Да</li>
+                           <li>Zero-G: 3 положения</li>
+                           <li>Массаж в условиях невесомости</li>
+                           <li>Регулирование скорости </li>           
+                       </ul>
+                       <a href="/katalog/cart/add.html?category_id=6&amp;product_id=43" title="" class="order">Заказать</a>
+                       <a href="/massazhnye-kresla/yamaguchi/yamaguchi-axiom-ya-6000.html" title="" class="extra">Подробно</a>
+       </div>
+    </div></div>
+<div class="aside"><div class="media-body catalog_page2">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <h5><a href="/massazhnye-kresla/yamaguchi/yamaguchi-ya-2100-new-edition140816112222140816141102.html">Массажное кресло Yamaguchi YA-2100 New Edition</a></h5>
+                        <div class="media_img">
+                                                     <img src="http://massage.no-ip.info/components/com_jshopping/files/img_labels/sale.png" class="action" alt="Sale">
+                       
+                           <img class="jshop_img" src="http://massage.no-ip.info/components/com_jshopping/files/img_products/thumb_yamaguchi-ya2100-new-edition1.jpg" alt="Массажное кресло Yamaguchi YA-2100 New Edition" title="Массажное кресло Yamaguchi YA-2100 New Edition">
+
+                            
+                        </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                      
+                       <p>Цена: <br>
+                                                    <span class="crossed"><span>300 000 <i class="fa fa-rub"></i></span> <span class="color3">РУБ</span></span><br>
+                                                         <span class="new_price"><span class="color2">267 000 <i class="fa fa-rub"></i></span> <span class="color3">РУБ</span></span>
+                           
+                       </p>
+                        
+                       <ul>
+                           <li>Авто. программы: 5 шт.</li>
+                           <li>Кол. роликов: 4 шт.</li>
+                           <li>Синх. с музыкой: Да</li>
+                           <li>Zero-G: 3 положения</li>
+                           <li>Массаж в условиях невесомости</li>
+                           <li>Регулирование скорости </li>           
+                       </ul>
+                       <a href="/katalog/cart/add.html?category_id=6&amp;product_id=12" title="" class="order">Заказать</a>
+                       <a href="/massazhnye-kresla/yamaguchi/yamaguchi-ya-2100-new-edition140816112222140816141102.html" title="" class="extra">Подробно</a>
+       </div>
+    </div></div>
+</div>

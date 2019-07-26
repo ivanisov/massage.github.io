@@ -1,0 +1,104 @@
+.promo_cont {
+width:880px;
+height:100%;
+text-align:center;
+margin:0 auto;
+}
+
+.item_cont {
+display:block;
+position:relative;
+height:63px;
+float:left;
+border:5px solid #fff;
+margin-right:10px;
+}
+
+.items_cont {
+width:100%;
+position:relative;
+margin:0 auto;
+margin-bottom: 22px;
+}
+
+.item_cont_inner {
+width:910px;
+margin:0 auto;
+}
+
+.item_gallery_ar {
+display:block;
+position:absolute;
+z-index:99;
+width:35px;
+height:87px;
+}
+
+.item_gallery_ar.left {
+left:0;
+background:#75ac00 url(../images/arrow1.png) no-repeat 50%;
+}
+
+.item_gallery_ar.right {
+right:0;
+background:#75ac00 url(../images/arrow.png) no-repeat 50%;
+}
+
+.item_gallery_ar.left:hover {
+left:0;
+background:#669601 url(../images/arrow1.png) no-repeat 50%;
+}
+
+.item_gallery_ar.right:hover {
+right:0;
+background:#669601 url(../images/arrow.png) no-repeat 50%;
+}
+
+.item_gallery {
+position:relative;
+clear:left;
+margin:0 auto;
+padding:0 40px;
+}
+
+.item_gallery_photo {
+float:left;
+height:87px;
+width:100px;
+overflow:hidden;
+margin:0 5px;
+}
+
+.item_gallery_cont {
+overflow:hidden;
+position:relative;
+height:87px;
+}
+
+.prod_rewiew {
+margin:0 auto;
+}
+
+.item_gallery_cont_inner {
+position:absolute;
+top:0;
+left:0;
+width:9999px;
+}
+
+.item_gallery_cont_inner img {
+min-height:100%;
+min-width:100%;
+}
+
+@media max-width 1200px {
+.prod_rewiew {
+width:90%!important;
+}
+}
+
+@media max-width 992px {
+.prod_rewiew {
+width:87%!important;
+}
+}
